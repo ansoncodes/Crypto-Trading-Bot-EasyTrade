@@ -46,7 +46,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-###Add Your API Credentials
+### 3. Add Your API Credentials
 
 Create a file named `.env` in the project root and add your keys:
 
@@ -60,7 +60,7 @@ BINANCE_API_SECRET="YOUR_TESTNET_API_SECRET_HERE"
 
 ## How to Run the Application
 
-###Web UI (Recommended)
+### 1. Web UI (Recommended)
 
 Launch the Streamlit interface. This is the easiest way to test the bot's full functionality.
 
@@ -70,7 +70,7 @@ streamlit run app.py
 
 This opens the EasyTrade app in your browser for real-time trading and monitoring.
 
-###Command-Line Interface (CLI)
+### 2. Command-Line Interface (CLI)
 
 You can also use the terminal to place and manage orders directly.
 
@@ -92,13 +92,13 @@ python trading_bot.py ETHUSDT SELL LIMIT 0.01 --price 4000
 
 -----
 
-###Logs
+### Logs
 
 All activities are saved to `logs/trading_bot.log`, which is helpful for debugging and reviewing trade history.
 
 -----
 
-###Disclaimer
+### Disclaimer
 
 This bot is built for educational and testing purposes on Binance’s Futures Testnet. Do not use it on the live environment with real funds unless it has been thoroughly tested and audited.
 
