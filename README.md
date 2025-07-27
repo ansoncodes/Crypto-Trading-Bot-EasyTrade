@@ -20,7 +20,7 @@ Follow these steps to set up the project environment.
 ### 1. Clone the Repository
 Open your terminal and clone the project repository:
 ```bash
-git clone https://github.com/ansoncodes/Crypto-Trading-Bot-EasyTrade
+git clone https://github.com/ansoncodes/trading_bot
 cd trading_bot
 ````
 
