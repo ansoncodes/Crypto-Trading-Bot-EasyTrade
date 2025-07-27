@@ -12,16 +12,6 @@ This project is a simplified crypto trading bot built in Python, created as a te
 * **Secure**: API keys are loaded securely from a `.env` file and are never exposed in the source code.
 * **Comprehensive Logging**: All actions, successful orders, and API errors are logged to `logs/trading_bot.log` for easy debugging and monitoring.
 
----
-## Technology Stack
-
-* **Language**: Python 3
-* **Web UI Framework**: Streamlit
-* **API Wrapper**: `python-binance`
-* **Command-Line Interface**: `argparse`
-* **Configuration**: `python-dotenv`
-
----
 ## Setup and Installation
 
 Follow these steps to set up the project environment.
