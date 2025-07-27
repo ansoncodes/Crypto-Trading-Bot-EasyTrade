@@ -1,7 +1,4 @@
 
-
------
-
 ````markdown
 # EasyTrade - Binance Futures Trading Bot
 
