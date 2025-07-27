@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ### 3. Add Your API Credentials
 
-add ur API credentials in the `.env`:
+Add ur API credentials in the `.env` file
 
 ```ini
 # .env file
