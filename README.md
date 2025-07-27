@@ -16,40 +16,37 @@ This project is a simplified crypto trading bot built in Python, created as a te
 
 Follow these steps to set up the project environment.
 
-### 1. Prerequisites
-* Python 3.8 or newer
-* A Binance Futures Testnet account and API Keys
 
-### 2. Clone the Repository
+### 1. Clone the Repository
 Open your terminal and clone the project repository:
 ```bash
 git clone <your-repository-url>
 cd <project-folder-name>
 ````
 
-### 3\. Set Up Virtual Environment & Install Dependencies
+### 2. Set Up Virtual Environment & Install Dependencies
 
-**🐧 On macOS/Linux:**
+**On macOS/Linux:**
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-**🪟 On Windows:**
+**On Windows:**
 
 ```bash
 python -m venv .venv
 .\.venv\Scripts\activate
 ```
 
-**📦 Install Requirements:**
+**Install Requirements:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4\. Add Your API Credentials
+###Add Your API Credentials
 
 Create a file named `.env` in the project root and add your keys:
 
@@ -65,7 +62,7 @@ BINANCE_API_SECRET="YOUR_TESTNET_API_SECRET_HERE"
 
 ## How to Run the Application
 
-### 🌐 Web UI (Recommended)
+###Web UI (Recommended)
 
 Launch the Streamlit interface. This is the easiest way to test the bot's full functionality.
 
@@ -75,7 +72,7 @@ streamlit run app.py
 
 This opens the EasyTrade app in your browser for real-time trading and monitoring.
 
-### 💻 Command-Line Interface (CLI)
+###Command-Line Interface (CLI)
 
 You can also use the terminal to place and manage orders directly.
 
@@ -97,17 +94,14 @@ python trading_bot.py ETHUSDT SELL LIMIT 0.01 --price 4000
 
 -----
 
-### 📂 Logs
+###Logs
 
 All activities are saved to `logs/trading_bot.log`, which is helpful for debugging and reviewing trade history.
 
 -----
 
-### 📌 Disclaimer
+###Disclaimer
 
 This bot is built for educational and testing purposes on Binance’s Futures Testnet. Do not use it on the live environment with real funds unless it has been thoroughly tested and audited.
 
-```
-```
 
-make an md file of this whole thing and give 
