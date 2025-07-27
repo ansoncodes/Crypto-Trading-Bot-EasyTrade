@@ -6,7 +6,7 @@ This project is a simplified crypto trading bot built in Python, created as a te
 ---
 ## Key Features
 
-* **Dual Interface**: Place orders via a powerful command-line interface (CLI) or an intuitive web UI.
+* **Dual Interface**: Operates via an interactive Streamlit web app or a CLI.
 * **Multiple Order Types**: Full support for `MARKET`, `LIMIT`, and `STOP-LIMIT` orders.
 * **Live Data & Validation**: The web UI fetches and displays live market prices from the Binance API and provides real-time validation to prevent common user errors.
 * **Secure**: API keys are loaded securely from a `.env` file and are never exposed in the source code.
