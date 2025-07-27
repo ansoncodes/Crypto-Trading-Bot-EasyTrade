@@ -26,18 +26,18 @@ cd trading_bot
 
 ### 2. Set Up Virtual Environment & Install Dependencies
 
-**On macOS/Linux:**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
 **On Windows:**
 
 ```bash
 python -m venv .venv
 .\.venv\Scripts\activate
+```
+
+**On macOS/Linux:**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 **Install Requirements:**
