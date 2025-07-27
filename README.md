@@ -56,8 +56,6 @@ BINANCE_API_KEY="YOUR_TESTNET_API_KEY_HERE"
 BINANCE_API_SECRET="YOUR_TESTNET_API_SECRET_HERE"
 ```
 
-⚠️ **Keep your `.env` file private. Never commit it to version control.**
-
 -----
 
 ## How to Run the Application
