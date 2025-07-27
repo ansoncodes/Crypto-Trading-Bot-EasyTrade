@@ -1,5 +1,4 @@
 
-````markdown
 # EasyTrade - Binance Futures Trading Bot
 
 This project is a simplified crypto trading bot built in Python, created as a technical assessment for the Junior Python Developer role. The application provides two distinct interfaces: a robust command-line tool and an interactive, user-friendly web application built with Streamlit.
